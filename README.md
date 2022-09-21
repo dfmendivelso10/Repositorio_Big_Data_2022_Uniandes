@@ -2,8 +2,6 @@
 
  Este repositorio contiene los Problem Set del curso Big Data & Machine Learning
 
-Cualquier duda contactar a [Daniel]
-
 ## Problem Set N.2
 
 Este Readme contiene una lista de instrucciones para replicar el Problem Set # 2. El repositorio cuenta con una carpeta llamada PS2, dentro de esta carpeta se encuentran cuatro carpetas; document, scripts, stores y views.
