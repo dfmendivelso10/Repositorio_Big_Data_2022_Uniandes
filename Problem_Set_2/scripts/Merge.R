@@ -38,11 +38,9 @@ View(sum_ingresos)
 summary(sum_ingresos)
 
 ## 4. Ahora vamos a realizar el Merge entre sum_ingresos con la base train_hogares, esto permite ///
-## incorporar los individuos a la base hogar con el ingreso total que le corresponde en su nucleo /// 
-## familiar.
+## incorporar el ingreso del hogar por individuo a la base hogar.
 
 train_hogares<-left_join(train_hogares,sum_ingresos)
-
 
 head(train_hogares[c("id","Ingtotug","Ingtot_hogar")])
 
